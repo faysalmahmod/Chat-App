@@ -3,6 +3,7 @@ import React, { Component } from "react";
    View,
    Text,
    TextInput,
+   Image,
    ImageBackground,
    StyleSheet,
    TouchableOpacity,
@@ -26,10 +27,11 @@ import React, { Component } from "react";
      return (
        <View style={{ flex: 1 }}>
          <ImageBackground
-           source={require("../assets/background-image.png")}
+           source={require("../assets/background-image.jpg")}
            style={styles.image}
          >
            <Text style={styles.title}>Chat App</Text>
+
            <View style={styles.box}>
              <TextInput
                style={[styles.input, styles.text]}
@@ -111,7 +113,7 @@ import React, { Component } from "react";
    nameInput: {
      fontSize: 16,
      fontWeight: "300",
-     color: "#757083",
+     color: "#363636",
      opacity: 50,
    },
 
