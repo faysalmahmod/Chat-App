@@ -66,4 +66,4 @@
 
 ## Screenshots
 
-![Screenshot](/assets/Screenshot.jpg?raw=true)
+![Screenshot](/assets/Screenshot.jpeg?raw=true)
