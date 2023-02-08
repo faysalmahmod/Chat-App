@@ -3,6 +3,7 @@ import React, { Component } from "react";
    View,
    Text,
    TextInput,
+   Image,
    ImageBackground,
    StyleSheet,
    TouchableOpacity,
@@ -26,10 +27,11 @@ import React, { Component } from "react";
      return (
        <View style={{ flex: 1 }}>
          <ImageBackground
-           source={require("../assets/background-image.png")}
+           source={require("../assets/background-image.jpg")}
            style={styles.image}
          >
            <Text style={styles.title}>Chat App</Text>
+
            <View style={styles.box}>
              <TextInput
                style={[styles.input, styles.text]}
